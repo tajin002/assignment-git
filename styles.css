@@ -1,0 +1,263 @@
+/* body property */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* top-banner */
+.top-banner{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+
+/* .description-area */
+.description-area{
+    width: 531px;
+    height: 424px;
+    margin-left: 105px;
+    margin-top:30px;
+}
+.description-area h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 80px;
+}
+.description-area p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* .image-area */
+.image-area img{
+    width: 64%;
+}
+.image-area {
+    width: 589px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+/* button-area */
+.btn-area{
+    width: 187px;
+    height: 56ppx;
+    border-radius: 5px;
+    padding: 16px 25px 16px 25px;
+    background-color: #DD0000;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    align-items: center;
+    text-decoration: none;
+}
+/* Blogs card section and side bar */
+.blogs-card{
+    margin-top: 100px;
+}
+.blog-container{
+    display: flex;
+}
+.side-btn{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+.btn-block{
+    display: block;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#group-match{
+    background-color: #fff;
+    color:#161616;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    border-radius: 10px;
+}
+#all-blog{
+    background-color: #DD0000;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    border-radius: 10px;
+}
+.player-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 24px;
+    margin-left: 24px;
+}
+.goal{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.details{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.details a{
+    text-decoration: none;
+    border: 1px solid #161616;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.details p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.icon{
+    color: gray;
+}
+.fa-comments{
+    margin-left: 35px;
+}
+.end-area{
+    width: 100%;
+    height: 500px;
+    background-color: #161616;
+    margin-top: 100px;
+    margin-bottom: 00px;
+}
+.goal-txt{
+    position: relative;
+    top: 25%;
+    border-bottom: 2px solid red;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.add-link {
+    position: relative;
+    left: 20%;
+    top: 50%;
+}
+.add-link a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 70px;
+}
+.fa-brands{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 40px;
+}
+/* Media queaties */
+/* for tablate device */
+@media only screen and (max-width:992px) {
+
+             /* top-banner responsive design */
+    .container{
+        width: 734px;
+        height: 398px;
+    }
+    .description-area{
+        width: 316px;
+        height: 276px;
+    }
+    .description-area h1{
+        line-height: 35px;
+        font-size: 35px;
+    }
+    .description-area p{
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+    .image-area img{
+        width: 81%;
+    }
+    .image-area{
+        width: 323px;
+        height: 340px;
+        margin-left: 10px;
+    }
+    .btn-area{
+        padding: 12px;
+    }
+
+    /* Blogs card section and side bar responsive design */
+    .player-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .btn-block{
+        justify-content: center;
+    }
+
+    /* footer-area part */
+    .end-area{
+        max-width: 1600px;
+        max-height: 500px;
+    }
+    .add-link{
+        position: relative;
+        left: 5%;
+    }
+    .fa-brands{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+/* Media queaties */
+/* for mobile device */
+@media only screen and (max-width:420px) {
+    .container{
+        width: 334px;
+        height: 472px;
+    }
+    .description-area{
+        width: 258px;
+        height: 178px;
+    }
+    .description-area h1{
+        line-height: 35px;
+        font-size: 35px;
+    }
+    .description-area p{
+        font-size: 14px;
+        line-height: 20px;
+        text-overflow: ellipsis;
+    }
+    .image-area img{
+        width: 50%;
+    }
+    .image-area{
+        width: 233px;
+        height: 245px;
+        margin-left: 10px;
+    }
+    .btn-area{
+        padding: 12px;
+    }
+}
